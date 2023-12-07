@@ -50,7 +50,7 @@ app.use(express.urlencoded({ extended: true }));
 // }
 
 // apiLogger.info("starting application..");
-app.listen(PORT, LOCAL_IP,() => {
+app.listen(PORT,() => {
     // console.log(`Server is running on port for NETWORK http://${LOCAL_IP}:${PORT}`);
     console.log(`Server is running on port http://localhost:${PORT}`);
     // apiLogger.info(`Listening on port ${PORT}...`)
