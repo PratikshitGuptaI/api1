@@ -1,10 +1,10 @@
 const express = require('express');
 const adminRoutes = require('./adminRoutes.js');
 const frontendRoutes = require('./frontendRoutes.js');
-const logger = require('./startup/logger.js')
+//const logger = require('./startup/logger.js')
 const cors =require("cors");
 const os = require('os');
-const {apiLogger} = require('./startup/logger.js')
+//const {apiLogger} = require('./startup/logger.js')
 var path = require('path');
 const helmet = require('helmet');
 helmet({
