@@ -1,0 +1,7 @@
+{
+    "ftp-banner":"banners",
+    "ftp-speaker":"speakers",
+    "ftp-qr":"qr",
+    "ftp-payment-qr":"payment-qr",
+    "ftp-payment-proof":"payment-screenshot"
+}
