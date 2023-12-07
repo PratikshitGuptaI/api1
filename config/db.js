@@ -2,7 +2,6 @@ const Sequelize = require('sequelize');
 
 const sequelize = new Sequelize({
   dialect: 'mysql',
-  dialectModule: "mysql2",
   host: 'mysql-2b50ce2c-channelharsh4561-4503.a.aivencloud.com',
   port: 25443,
   username: 'avnadmin',
